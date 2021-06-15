@@ -15,7 +15,7 @@
 #include "index_html.h"  // In dieser Datei befindet sich die Steuerung Webseite
 
 const char* ssid = "couchsurfer";           // WiFi SSID
-const char* password = "#HKS.-hp-7";        // WiFi password
+const char* password = "#";                 // WiFi password
 int active_low = 0;                         // "0" Relais schaltet bei +5V , "1" Relais beim schaltet bei 0V
 int intervalR1 = 500;                       // Zeit fürs Schalter halten
 #define R1Pin 13                            // Relais 
